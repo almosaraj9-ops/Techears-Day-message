@@ -18,7 +18,7 @@ HTML5 – Card structure; CSS3 – Styling and animations and JavaScript (ES6) �
 
 🚀 How to Use
 
-Open the live site: 👉[click here ]( file:///C:/Users/63963/.vscode/project/index.html) Enjoy the card animations and message.
+Open the live site: 👉C:\Users\63963\.vscode\projectEnjoy the card animations and message.
 
 (Optional) Fork the repository to create your own version.
 
