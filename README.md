@@ -8,13 +8,13 @@ An interactive digital greeting card** made with **HTML, CSS, and JavaScript, cr
 
  📖 Features
 
-🎨 **Beautiful Design** – Styled with CSS for a clean, greeting-card look.
+🎨 Beautiful Design – Styled with CSS for a clean, greeting-card look.
 
-💬 **Personal Messages** – Add your own words, quotes, or dedications for your teachers.
+💬 Personal Messages – Add your own words, quotes, or dedications for your teachers.
 
-✨ **Interactive Effects** – Includes confetti, glowing text, and flip animations powered by JavaScript.
+✨ Interactive Effects – Includes confetti, glowing text, and flip animations powered by JavaScript.
 
-📱 **Fully Responsive** – Works smoothly on phones, tablets, and computers.
+📱 **Fully Responsive – Works smoothly on phones, tablets, and computers.
 
 
 
@@ -26,14 +26,14 @@ An interactive digital greeting card** made with **HTML, CSS, and JavaScript, cr
 
 
 
- 🚀 How to Use
+🚀 How to Use
 
-1. Open the project live demo: 👉 *[Insert your GitHub Pages link here]*
+1. Open the project live demo: 👉 https://almosaraj9-ops.github.io/Techears-Day-message/
 2. Watch the animations and read the messages.
 3. (Optional) Fork or clone the repository to make your own custom version.
 
 
- 🎯 Customization
+🎯 Customization
 
 📝 index.html→ Edit or add new messages and emojis.
 🎨 style.css → Change colors, fonts, and animations.
