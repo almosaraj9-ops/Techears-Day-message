@@ -62,11 +62,20 @@ h1 {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-.card-front img {
-  width: 100%;
+/* Animated Emoji on front */
+.emoji-front {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  object-fit: cover;
-  filter: brightness(0.8);
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  animation: bounce 2s infinite alternate;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 
 .card-front button {
@@ -144,7 +153,7 @@ h1 {
   to { box-shadow: 0 0 40px #ff69b4; }
 }
 
-/* Floating Emojis */
+/* Floating & Raining Emojis */
 .emoji, .rain-emoji {
   position: absolute;
   font-size: 2rem;
@@ -163,10 +172,10 @@ h1 {
   100% { transform: translateY(-10vh) rotate(720deg); opacity: 0; }
 }
 
-/* Raining Emojis */
 @keyframes rainFall {
   0% { transform: translateY(-10%); opacity: 1; }
   100% { transform: translateY(110vh); opacity: 0; }
 }
+
 
 
