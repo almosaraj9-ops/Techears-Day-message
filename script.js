@@ -4,7 +4,7 @@ const cards = document.querySelectorAll(".card");
 const popup = document.getElementById("thankYouPopup");
 let flippedCount = 0;
 
-// Flip cards
+// Flip logic
 flipButtons.forEach((btn, i) => {
   btn.addEventListener("click", () => {
     if (!cards[i].classList.contains("flip")) flippedCount++;
@@ -21,7 +21,7 @@ backButtons.forEach((btn, i) => {
   });
 });
 
-// Background color change
+// Background gradient loop
 const colors = [
   "linear-gradient(135deg, #fbc2eb, #a6c1ee)",
   "linear-gradient(135deg, #ffd6a5, #ff9cee)",
@@ -34,7 +34,7 @@ setInterval(() => {
   c = (c + 1) % colors.length;
 }, 4000);
 
-// Floating emojis 🎈
+// Floating emojis
 const floatEmojis = ["🎉", "💖", "🎊", "🌸", "⭐", "🍎", "🎈", "🌷"];
 function createEmoji() {
   const e = document.createElement("div");
@@ -47,7 +47,7 @@ function createEmoji() {
 }
 setInterval(createEmoji, 300);
 
-// Raining emojis 💕🌟
+// Raining emojis
 const rainEmojis = ["💖", "🌟", "🌸", "✨", "💐", "🎈"];
 function rainEmoji() {
   const r = document.createElement("div");
@@ -60,7 +60,7 @@ function rainEmoji() {
 }
 setInterval(rainEmoji, 150);
 
-// Confetti (party popper)
+// Confetti
 function createConfetti() {
   for (let i = 0; i < 20; i++) {
     const confetti = document.createElement("div");
@@ -73,7 +73,7 @@ function createConfetti() {
   }
 }
 
-// Popup show
+// Popup
 function showPopup() {
   popup.classList.add("show");
   createConfetti();
